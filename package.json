@@ -1,0 +1,11 @@
+{
+  "name": "pumpfun-3d-agent-root",
+  "private": true,
+  "workspaces": ["dashboard", "agent"],
+  "scripts": {
+    "dev:dashboard": "npm run dev --workspace=dashboard",
+    "dev:agent": "npm run dev --workspace=agent",
+    "build:dashboard": "npm run build --workspace=dashboard",
+    "build:agent": "npm run build --workspace=agent"
+  }
+}
